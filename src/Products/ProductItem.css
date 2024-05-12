@@ -1,0 +1,40 @@
+.product-item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  background-color: #f9f0f0;
+  background-color: transparent;
+}
+
+.item-bg {
+  height: 200px;
+  width: 200px;
+  background-color: #f9f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #313038;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.price-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

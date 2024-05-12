@@ -1,0 +1,167 @@
+.product-card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-data {
+  text-align: center;
+}
+
+.main-heading {
+  font-family: "Helvetica", "sans-serif";
+  margin-top: 20px;
+}
+
+.para {
+  color: #1e1f4b;
+  font-family: "Arial";
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.product-cart {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.count-item-cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filter-para {
+  color: #19191d;
+  font-size: 16px;
+  font-size: "Roboto";
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.body-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.recommed-form {
+  color: #19191d;
+  font-size: 14px;
+  font-size: "Roboto";
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.filter-and-product-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  width: 20%;
+}
+
+.product-filter-section {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+  width: 20%;
+}
+
+.font-style {
+  color: #19191d;
+  font-size: 14px;
+  font-size: "Roboto";
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.dropbtn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.dropdown-posotion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rotate-up {
+  transform: rotate(180deg);
+}
+
+.rotate-down {
+  transform: rotate(0deg);
+}
+
+.dropdown-content-hide {
+  display: none;
+  position: absolute;
+}
+.dropdown-content-hide {
+  display: block;
+  position: absolute;
+}
+
+.product-section-view {
+  width: 80%;
+  margin-top: 15px;
+}
+
+.checkbox-gender {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.product-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.stable {
+  width: 80%;
+}
+
+.increase {
+  width: 100%;
+  margin-left: -20px;
+}
+
+.item-view {
+  display: block;
+}
+
+.item-hide {
+  display: none;
+}

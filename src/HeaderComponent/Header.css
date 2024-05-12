@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+}
+
+.nav-bar-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.nav-logo-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.start {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.nav-logo {
+  height: 20px;
+  width: 20px;
+}
+
+.nav-logo-heading {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: "Arial, Helvetica, sans-serif";
+  position: relative;
+}
+
+.nav-logos-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.icon-space {
+  margin-left: 15px;
+}
+
+.select-cart {
+  outline: none;
+  border: none;
+  font-family: "arial";
+  font-weight: 700;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  flex-wrap: wrap;
+}
+
+.tab {
+  color: #261919;
+  font-family: "Arial";
+}
